@@ -2,7 +2,7 @@
 
 ![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)
 
-[Live Preview](pouyasdz.github.io/FAQ-accordion)
+[Live Preview](https://pouyasdz.github.io/FAQ-accordion)
 
 ## Welcome! 👋
 
