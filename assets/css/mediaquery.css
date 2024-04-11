@@ -1,11 +1,26 @@
 /* tablet */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 380px) {
+    body {
+        background-image: url("../images/background-pattern-desktop.svg") !important;
+    }
+    main {
+        margin-top: 50px !important;
+    }
 }
 
 /* laptop */
 @media only screen and (min-width: 800px) {
+    main{
+        width: 50% !important;
+        margin-top: 7rem !important;
+    }
 }
 
 /* desktop */
 @media only screen and (min-width: 1600px) {
+    main{
+        width: 40% !important;
+        height: 40%;
+        margin-top: 16rem !important;
+    }
 }

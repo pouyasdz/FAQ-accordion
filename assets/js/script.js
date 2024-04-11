@@ -7,5 +7,5 @@ function handleClick (event){
     else event.src = iconPlus;
     const item =  event.parentElement.parentElement;
     const detail = item.lastElementChild;
-    detail.classList
+    detail.classList.contains("hidden") ? detail.classList.remove("hidden") : detail.classList.add("hidden");
 }

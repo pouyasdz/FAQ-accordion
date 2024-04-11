@@ -30,6 +30,7 @@ body {
   background-color: hsl(275, 100%, 97%);
   background-image: url("../images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   justify-content: center;
 }
