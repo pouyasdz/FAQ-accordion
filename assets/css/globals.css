@@ -36,3 +36,9 @@ body {
 }
 
 .hidden{display: none !important;}
+.plus{
+  content: url(../images/icon-plus.svg);
+}
+.minus{
+  content: url(../images/icon-minus.svg);
+}
