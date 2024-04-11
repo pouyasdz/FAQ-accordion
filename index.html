@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ accordion</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body>
+    <main>
+      <div class="top">
+        <img src="./assets/images/icon-star.svg" alt="" />
+        <h1>FAQs</h1>
+      </div>
+      <div class="container">
+        <div class="item">
+          <div class="accordion">
+            <p>What is Frontend Mentor, and how will it help me?</p>
+            <img
+              onclick="handleClick(this)"
+              src="assets/images/icon-plus.svg"
+              alt=""
+            />
+          </div>
+          <div class="detail">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </div>
+        </div>
 
-  FAQs
+        <div class="item">
+
+          <div class="accordion">
+            <p>Lorem, ipsum dolor sit amet consectetur</p>
+            <img
+            onclick="handleClick(this)"
+            src="assets/images/icon-plus.svg"
+            alt=""
+            />
+          </div>
+          <div class="detail"></div>
+        </div>
+          
+        <div class="item">
+          <div class="accordion">
+            <p>Lorem, ipsum dolor sit amet consectetur</p>
+            <img
+              onclick="handleClick(this)"
+              src="assets/images/icon-plus.svg"
+              alt=""
+            />
+            <div class="detail"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FAQs
 
   What is Frontend Mentor, and how will it help me?
 
@@ -31,12 +86,8 @@
   How can I get help if I'm stuck on a Frontend Mentor challenge?
   
   The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-  channel where you can ask questions and seek support from other community members.
+  channel where you can ask questions and seek support from other community members. -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
